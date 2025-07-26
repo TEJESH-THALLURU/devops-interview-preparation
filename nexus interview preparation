@@ -1,0 +1,72 @@
+ Top Nexus Repository Interview Questions
+
+ General & Fundamentals
+
+1. What is Nexus Repository? Why is it used in DevOps pipelines?
+2. Compare Nexus, Artifactory, and JFrog for artifact management.
+3. What formats does Nexus support? (Maven, Docker, npm, PyPI, etc.)
+4. Explain hosted vs. proxy vs. group repositories in Nexus.
+5. How does Nexus manage metadata for artifacts?
+
+ Repository Types and Setup
+
+6. How do you set up a new Maven repository in Nexus?
+7. What is a "proxy" repository? When would you configure one?
+8. Walk through creating a Docker registry in Nexus and connecting with a CI pipeline.
+9. What is a "group" repository, and how does it simplify artifact management?
+10. How do you upload an artifact manually? Via REST API?
+
+ Nexus Integration & DevOps Scenarios
+
+11. How do you integrate Nexus with Jenkins in a CI/CD pipeline?
+12. Describe using Nexus as a Docker registry—setup and common issues.
+13. How do you push and pull images from Nexus Docker repository?
+14. How would you configure `settings.xml` (Maven) to interact with Nexus?
+15. How do you manage multiple repository formats (npm, NuGet, PyPI) under one Nexus server?
+16. Give an example of publishing and versioning custom artifacts.
+17. What build tool plugins exist for integrating with Nexus (Gradle, Maven, etc.)?
+18. How do you enforce artifact retention/cleanup with Nexus policies?
+19. What is capability and how do you use capabilities in Nexus?
+20. How can you automate Nexus repository actions using REST APIs or scripting?
+
+ Security & Access Management
+
+21. Explain how user roles and privileges work in Nexus.
+22. How do you enforce fine-grained read/write permissions per repository?
+23. How do you configure LDAP/Active Directory integration for Nexus authentication?
+24. How would you create a "deploy only" user for CI/CD?
+25. Describe best practices for managing anonymous access.
+26. How do you enable HTTPS/SSL for Nexus Repository?
+27. Explain token-based authentication for REST API in Nexus 3.x.
+28. How do you audit artifact downloads/uploads and repository events?
+29. Scenario: restrict access to certain repository paths based on teams.
+30. How do you handle password rotation for credentials used by build agents?
+
+ Nexus Troubleshooting & Maintenance
+
+31. How would you upgrade Nexus server with zero downtime?
+32. Where are Nexus logs and how do you analyze them for failures?
+33. Jenkins build fails while publishing SNAPSHOT artifacts—how do you debug?
+34. What steps would you follow if artifact upload fails due to a checksum error?
+35. How do you clean up disk space on a Nexus server?
+36. How do you configure and restore Nexus backups?
+37. Scenario: Nexus server is running slow—methods to analyze and resolve.
+38. How to generate and analyze support ZIP for Sonatype?
+39. How would you monitor Nexus repository health (open-source options)?
+40. How to recover/restore from a repository corruption (Practical steps)?
+
+ Advanced Topics & Real-World Scenarios
+
+41. How do you migrate all repositories from one Nexus instance to another (including metadata)?
+42. What best practices do you use for artifact versioning across teams?
+43. How do you implement artifact promotion from dev to QA to production repositories?
+44. Steps to enforce artifact signature/verification in Nexus.
+45. How to handle and clean up orphaned/unused artifacts?
+46. What is Smart Proxy and when do you use it?
+47. Automation: Script to monitor and report repository growth.
+48. Disaster recovery – explain your backup/restore plan.
+49. What is Nexus Firewall, and how can it help with supply chain security?
+50. Scenario: An artifact with critical vulnerability is discovered—how do you respond using Nexus tools/features?
+
+
+
