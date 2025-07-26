@@ -1,0 +1,134 @@
+ Top 100 DevOps Git & GitHub Interview Questions 
+
+
+Core Git Concepts & Fundamentals
+
+1. What is Git and what problem does it solve in DevOps?
+2. Explain the difference between centralized and distributed version control systems.
+3. How do you initialize a new Git repository?
+4. How does Git achieve data integrity?
+5. What’s the difference between git fetch and git pull?
+6. When do you use git clone vs git init?
+7. What is a commit in Git? What does it store?
+8. How does the staging area work?
+9. How do you view your commit history?
+10. Differentiate Git, SVN, and Mercurial.
+
+ Branching & Merging
+
+11. What is a branch in Git?
+12. Explain standard branching strategies (git-flow, GitHub flow, trunk-based).
+13. How do you create, rename, and delete branches?
+14. What is a merge conflict? How do you resolve one?
+15. Compare merge vs rebase strategies.
+16. Describe a scenario to recover from a bad merge.
+17. What is a fast-forward merge?
+18. How do you handle parallel feature development?
+19. When would you use cherry-pick?
+20. How do you see which branches are merged or stale?
+
+ Practical Commands & Workflow
+
+21. How do you revert your last commit?
+22. What is git reset? What are the differences between soft, mixed, and hard resets?
+23. Explain the difference between git checkout and git switch.
+24. How do you undo changes in your working directory but not your staging area?
+25. Describe git stash—how and why is it used?
+26. How do you rename a file and keep the change tracked by Git?
+27. How do you squash multiple commits into one?
+28. How do you remove a file from the repository but keep it locally?
+29. What is reflog and when would you use it?
+30. How do you clean up untracked files?
+
+ Collaboration & Remote Repositories
+
+31. How do you add a remote repository?
+32. Explain fetch, merge, pull, and push in collaborative workflows.
+33. How would you enforce commit message guidelines in your team?
+34. What is a pull request? What are its advantages over direct pushes?
+35. How do you resolve an upstream branch deleted from the remote?
+36. What’s the difference between origin and upstream?
+37. How do you mirror a repository?
+38. How do you force-push and what are the risks?
+39. Explain how git hooks can improve collaboration.
+40. Describe a scenario where you handle conflicting changes from multiple teammates.
+
+ GitHub-Specific Questions & Scenarios
+
+41. What is GitHub? How is it different from Git?
+42. How do you fork a GitHub repository, and why?
+43. Explain how branching works on GitHub.
+44. How does GitHub Actions automate CI/CD workflows?
+45. How would you implement code reviews effectively on GitHub?
+46. Walk through the lifecycle of a GitHub pull request.
+47. How do you manage repository permissions for team members and external collaborators?
+48. How do you keep a fork of a repository updated?
+49. How do you use issue templates for bug reporting?
+50. What are GitHub Discussions, and when do you use them?
+
+ Real-World Scenario & DevOps Integration
+
+51. Describe how you’d set up automated deployments using GitHub Actions.
+52. How do you handle secrets/credentials in GitHub Actions pipelines securely?
+53. Walk through how you’d recover from an accidental secret commit to a public repo.
+54. When should you leverage protected branches and branch rules?
+55. Describe managing multiple environments (dev/staging/prod) in Git via branches.
+56. You discover a security vulnerability in a dependency—describe your response using Git/GitHub.
+57. How do you implement semantic versioning with Git tags?
+58. What is GitHub Pages, and how have you used it in deployments?
+59. Explain dependency graph and security alerts in GitHub repositories.
+60. How would you enforce contributor license agreements in open-source projects?
+
+ Advanced Git Operations
+
+61. How do submodules work in Git? When should they be used?
+62. How can you filter repository history to remove sensitive data?
+63. Explain Git Large File Storage (LFS).
+64. How would you identify and fix a corrupted repository?
+65. How do you perform a bisect to debug regressions?
+66. What is the rebasing strategy in feature branches before going to main?
+67. How do you automate release notes generation from commit history?
+68. Explain the process and risk of rewriting history in shared branches.
+69. What is a detached HEAD and when might you encounter it?
+70. How do you rebase interactively and resolve conflicts?
+
+CI/CD, DevOps Practices with Git & GitHub
+
+71. Describe an E2E workflow from developer commit to production deployment using only GitHub Actions.
+72. How do you ensure only passing builds can be merged?
+73. Explain artifact management with GitHub Packages.
+74. How do you trigger builds on commit, pull request, and tag events differently?
+75. What are best practices for handling environment variables in CI/CD?
+76. How do you handle blue/green or canary deployments with GitHub Actions?
+77. What strategies do you suggest for rollback in GitOps pipelines?
+78. Describe the audit log scenario after a major incident.
+79. How would you use CodeQL for code security in GitHub?
+80. Describe “ChatOps” using GitHub and bots.
+
+ Troubleshooting & Practical Scenarios
+
+81. You pushed confidential data by mistake—how do you remediate?
+82. Jenkins build fails after merge—how do you investigate using Git?
+83. Developers facing frequent merge conflicts—what process improvements would you suggest?
+84. You need to migrate a repository from Bitbucket/GitLab to GitHub—steps?
+85. Describe troubleshooting for a CI pipeline that fails intermittently after commits.
+86. A deployment fails only on production branch; outline your debugging methodology.
+87. Team reports slow clone/pull—reasoning and remediation?
+88. How do you detect and remove duplicate commits?
+89. How would you restore a deleted GitHub repo with only a local copy?
+90. How do you monitor repository health and activity?
+
+ Enterprise, Audit, and Governance
+
+91. Enforce DCO (Developer Certificate of Origin)—what, why, and how?
+92. Review compliance and audit trail requirements for a regulated environment.
+93. How do you ensure developers follow code formatting and security scanning before merges?
+94. What is CODEOWNERS file, and how does it support code review?
+95. How do you set up SSO/2FA for an organization’s repositories?
+96. Suggest strategies for handling high repo fork/clone activity in open source.
+97. How would you conduct regular permission audits in GitHub?
+98. How do you handle license compliance for repo dependencies?
+99. What tooling do you use to prevent “supply-chain attacks” in GitHub workflows?
+100. Describe your experience with GitHub’s API for automation, reporting, or integration.
+
+
