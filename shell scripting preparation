@@ -1,0 +1,133 @@
+ Top 100 Shell Scripting Interview Questions 
+
+ Fundamentals & Basics
+
+1. What is a shell script?  
+2. Why use shell scripting for automation?  
+3. List common Linux shells and their differences (bash, sh, zsh, ksh, csh).  
+4. What is the first line (shebang) in a shell script, and why is it important?  
+5. How do you make a shell script executable?  
+6. How do you run a shell script located in the current directory?  
+7. What are environment variables? How are they set and accessed in a script?  
+8. What are positional parameters ($1, $2, $@, $*)?  
+9. How do you add comments in a shell script?  
+10. Compare shell scripts with Python/Perl scripting for automation.
+
+ Input/Output, String Handling
+
+11. How do you read user input in a shell script?  
+12. How do you output text to the terminal?  
+13. What is the difference between single (' ') and double (" ") quotes?  
+14. How do you trim spaces from a variable in bash?  
+15. How do you concatenate strings in shell scripting?  
+16. Give examples for input and output redirection (`>`, `>>`, `<`, `2>`, `|`).  
+17. How do you read a file line by line?  
+18. How do you process command-line arguments in a script?  
+19. How do you handle optional arguments and flags?  
+20. How do you check the exit status of the last executed command?
+
+ Variables, Data Types, and Arithmetic
+
+21. How do you declare and use variables in bash?  
+22. What are readonly and unset commands?  
+23. How do you perform basic arithmetic?  
+24. How do you increment or decrement a variable?  
+25. What is the use of let, expr, and $(( ))?  
+26. How do you format numbers and handle floating point in bash?  
+27. How do you use arrays in bash?  
+28. How do you find the length of an array?  
+29. Give an example of associative arrays in bash.  
+30. How do you sort and shuffle arrays?
+
+ Flow Control
+
+31. How do you use if, elif, else in shell scripts?  
+32. What is a case statement? Give an example.  
+33. How do you use for, while, and until loops?  
+34. How do you break out of a loop, or continue to the next iteration?  
+35. How do you use select to build a simple menu?  
+36. How do you check for file existence, readability, writability?  
+37. What are test conditions (`[ ]`, `[[ ]]`, test command)?  
+38. Explain exit statuses and how they are used in control flow.  
+39. How do you make a script exit on error (`set -e`)?  
+40. How do you implement error handling in shell scripts?
+
+Functions & Modular Code
+
+41. How do you define and call a function in shell scripting?  
+42. Can functions return values? How?  
+43. How do you pass parameters to a function?  
+44. How do you capture function output?  
+45. Describe the use of local vs global variables within functions.  
+46. Can you nest functions in bash? Example?  
+47. How do you source (include) another shell script?  
+48. How do you modularize and reuse script logic?  
+49. What are traps and how do you use them?  
+50. How do you handle signals (SIGINT, SIGTERM) in bash?
+
+ Practical Command Usage
+
+51. Write a script to print “Hello, World!”  
+52. Script to sum numbers from 1 to 100.  
+53. Script to read a file and print all non-empty lines.  
+54. Script to backup files modified in the last 24 hours.  
+55. Script to find and delete files older than 30 days.  
+56. Script to monitor disk usage and send an alert if usage exceeds 80%.  
+57. Script to check if a given process is running.  
+58. Script to check network connectivity to a host.  
+59. Script to compress and archive logs from /var/log.  
+60. Script to restart a service if it fails health check.
+
+ DevOps/CI/CD & Automation
+
+61. How do you schedule a script to run periodically (cron, at)?  
+62. How do you integrate a shell script in Jenkins or GitHub Actions?  
+63. Script to roll out configuration changes to multiple servers.  
+64. Script to validate successful deployment with automated checks.  
+65. Script to clean up old Docker images and containers.  
+66. Script for reading and updating values in a .env file.  
+67. Script to trigger build/deploy pipelines conditionally.  
+68. Script for log rotation and archiving.  
+69. Script to extract specific fields from JSON or CSV files (using jq, awk).  
+70. Script to generate and email system health reports.
+
+Advanced Scenarios & Real-World Troubleshooting
+
+71. Script to parse Apache/Nginx logs for errors in the last 24 hours.  
+72. Script to monitor a directory for new file creations (inotifywait).  
+73. Script to find and list duplicate files in a directory tree.  
+74. Script to delete empty files and folders recursively.  
+75. Script to check SSL certificate expiry for a given domain.  
+76. Script to scan open ports on a remote machine (using netcat/nmap).  
+77. Script to automate DB backups and upload to S3/remote server.  
+78. Script to recover lost/locked shell account credentials (with security checks).  
+79. Script to securely handle credentials in CI/CD pipeline scripts.  
+80. Script to automate failover to a backup server if a service fails.
+
+ Debugging, Testing, and Best Practices
+
+81. How do you debug a shell script (`set -x`)?  
+82. How do you handle errors gracefully and log them?  
+83. How to unit test shell scripts? (bats, shunit2)  
+84. How to use linting/static analysis tools for scripts?  
+85. What are common pitfalls in shell scripting?  
+86. Explain idempotency in shell scripts for automation.  
+87. What are subshells, and how do they affect variable scope?  
+88. How to profile performance of a shell script?  
+89. How do you document shell scripts for maintenance?  
+90. Best practices for secure shell scripting.
+
+Miscellaneous & Scenario-based
+
+91. Script to watch a log file and send notification on keywords.  
+92. How to sanitize dangerous input within scripts?  
+93. Script to enforce password policy for new user accounts.  
+94. Script to pull metrics from cloud API and visualize/report.  
+95. Script for interactive configuration with user prompts and validation.  
+96. Script for batch renaming files with regex patterns.  
+97. How to trap ctrl+c and perform clean-up before exiting?  
+98. Script to rotate SSH keys and update authorized_keys.  
+99. How to dynamically generate config files from templates?  
+100. Script for one-click system provisioning (user, software, config).
+
+
