@@ -1,0 +1,111 @@
+Top Apache Tomcat Interview Questions 
+
+
+ Tomcat Fundamentals
+
+1. What is Apache Tomcat and what is it used for?
+2. Explain Tomcat’s architecture and key components (Catalina, Coyote, Jasper, connectors).
+3. What protocols does Tomcat support out of the box?
+4. How does Tomcat differ from a full Java EE application server (e.g., JBoss, WebLogic)?
+5. What is WAR and how does Tomcat use it?
+
+ Configuration and Setup
+
+6. How do you install Tomcat on Linux? On Windows?
+7. Describe the directory structure of a default Tomcat installation.
+8. What is `server.xml` and what are its important sections?
+9. How do you change the default port Tomcat listens on?
+10. What is the `CATALINA_HOME` and `CATALINA_BASE` environment variable?
+11. How does Tomcat handle environment variables and JVM options?
+12. What is the purpose of `context.xml`? Where can it be defined?
+13. How do you enable/disabling the Manager and Host Manager apps?
+14. What is the function of `web.xml` in the Tomcat context?
+15. How do you configure logging in Tomcat? What logging frameworks are supported?
+
+ Deployment
+
+16. How do you deploy a Java web application in Tomcat?
+17. What happens when you place a WAR file in Tomcat’s `webapps` directory?
+18. How can you deploy an application without downtime (zero-downtime deployment)?
+19. What is hot deployment? Does Tomcat support it, and what are the risks?
+20. How do you use the Tomcat Manager web interface and command-line tools for deployment?
+21. How do you configure context paths for multiple applications?
+22. How can you undeploy or redeploy an application from Tomcat?
+23. How do you use parallel deployment in Tomcat?
+
+ Performance Tuning & Monitoring
+
+24. How do you configure Tomcat’s heap size, PermGen/Metaspace, and GC options?
+25. What are Tomcat threads, maxThreads, and how are they tuned?
+26. How to enable and read Tomcat access logs and GC logs?
+27. How do you monitor active sessions in Tomcat?
+28. What is the role of the AJP connector? When should you use it?
+29. How do you perform load testing and analyze resource bottlenecks in Tomcat?
+30. How would you use JMX for monitoring Tomcat?
+31. How to monitor Tomcat with tools like Prometheus, ELK, or New Relic?
+
+ Security
+
+32. What are the primary steps to secure Tomcat in production?
+33. How do you disable directory listing in Tomcat?
+34. How do you configure SSL/HTTPS in Tomcat?
+35. How do you set up user authentication and authorization (roles/users in tomcat-users.xml)?
+36. How do you restrict access to the Tomcat Manager/Host Manager apps?
+37. What headers would you recommend to set for secure web apps on Tomcat?
+38. How do you mitigate CVEs and stay up-to-date with Tomcat security patches?
+39. What are the best practices for file and folder permissions on a Tomcat installation?
+
+ Troubleshooting & Real-World Scenarios
+
+40. What steps do you follow to troubleshoot a 404 or 500 error in Tomcat?
+41. If Tomcat fails to start, which logs/configs do you check first and why?
+42. Tomcat is using 100% CPU—how do you investigate and resolve?
+43. If a WAR deployment fails, how do you debug it?
+44. How do you troubleshoot memory leaks in a Tomcat-hosted application?
+45. Application sessions are randomly expiring—what are the possible causes?
+46. Tomcat is running, but requests hang or are extremely slow. What is your diagnosis approach?
+47. How do you recover from corrupt or locked log/temp files in Tomcat?
+48. How do you handle port conflicts in shared environments?
+49. What are common reasons for frequent Tomcat crashes?
+
+ Integration, Clustering, and Advanced Concepts
+
+50. How do you configure Tomcat with a web server like Apache HTTPD or Nginx (reverse proxy, AJP, mod_jk)?
+51. What is Tomcat clustering? How do you enable session replication?
+52. Explain load balancing strategies with Tomcat.
+53. How does Tomcat handle sticky sessions?
+54. What is JNDI and how do you use it to define environment entries, DataSources, or resources in Tomcat?
+55. How do you configure connection pooling for databases (JDBC) in Tomcat?
+56. How do you integrate Tomcat with LDAP or Active Directory for authentication?
+57. What is a Valve in Tomcat?
+58. What is the difference between shared, common, and server classloader hierarchies?
+59. How do you enable HTTP/2 in Tomcat?
+60. What is the significance of `work`, `temp`, and `logs` directories?
+
+ DevOps & Automation
+
+61. How do you automate Tomcat provisioning and configuration using Ansible, Chef, or Puppet?
+62. How would you add Tomcat health checks in a CI/CD pipeline?
+63. How can you run Tomcat in a Docker container? What is essential in the Dockerfile?
+64. What are the key Tomcat metrics you would export for monitoring in Prometheus/Grafana?
+65. How do you automate blue-green or canary deployments for Tomcat?
+66. How do you initiate rolling restarts with minimal downtime in a cluster?
+67. What strategies would you use for log rotation and archival in Tomcat deployments?
+68. How do you automatically backup and restore configurations for disaster recovery?
+69. How do you integrate Tomcat logs with ELK stack or other centralized logging?
+70. How do you manage multiple Tomcat instances on the same server?
+
+ Administration & Best Practices
+
+71. What is the recommended way to upgrade Tomcat in production?
+72. How do you migrate applications from one Tomcat version to another?
+73. When and how would you change default Tomcat ports for security reasons?
+74. What’s the difference between running Tomcat as root vs non-root, and why is it important?
+75. How do you enable gzip compression in Tomcat?
+76. How do you configure JVM options for optimal security and performance?
+77. How do you analyze and prevent file descriptor/resource leaks?
+78. What scripts/utilities does Tomcat provide for maintenance and shutdown?
+79. How do you check which web apps are loaded and their status on a running server?
+80. What steps do you include in a Tomcat hardening checklist?
+
+
