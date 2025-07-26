@@ -1,0 +1,133 @@
+Top Maven Interview Questions 
+
+ Maven Basics
+
+1. What is Maven? Why is it used in Java projects?
+2. Explain the difference between Maven and Ant.
+3. What are the key features and benefits of Maven?
+4. What is the default build lifecycle in Maven?
+5. What is a POM file? Why is it important?
+
+Project Structure and Build Lifecycle
+
+6. Describe a standard Maven project directory structure.
+7. Explain the phases of Maven's default build lifecycle.
+8. What are the three Maven build lifecycles?
+9. What is the significance of the "target" directory?
+10. Explain the difference between validate, compile, test, package, verify, install, and deploy phases.
+
+ Dependencies and Repositories
+
+11. How does Maven manage dependencies?
+12. What is the difference between local, central, and remote repositories?
+13. Where is the local Maven repository located by default?
+14. How do you add a dependency to a project?
+15. What is a transitive dependency? How does Maven handle it?
+16. How do you exclude a transitive dependency?
+17. What is the role of the "scope" attribute in dependencies?
+18. Difference between "compile", "provided", "runtime", "test" and "system" scopes.
+19. How to install a third-party JAR not available in the public repo?
+20. How do you update dependencies in your Maven project?
+
+ Plugins and Goals
+
+21. What is a Maven plugin? How is it different from a dependency?
+22. What are some commonly used built-in Maven plugins?
+23. How do you configure and use a plugin in POM.xml?
+24. What is a Mojo in Maven?
+25. How do you create a custom Maven plugin?
+26. What is the Surefire plugin, and how is it used in testing?
+27. Explain the use of the maven-compiler-plugin.
+28. What is the purpose of the maven-clean-plugin?
+29. How do you skip tests in a Maven build?
+30. How to execute a plugin goal directly from the command line?
+
+ POM.xml and Configuration
+
+31. What does "modelVersion" mean in POM.xml?
+32. Explain the key elements: groupId, artifactId, version, packaging.
+33. What are parent and child POMs? How does inheritance work in Maven?
+34. How do you use dependencyManagement in Maven?
+35. What is the use of properties in POM.xml?
+36. How can you override property values from the command line?
+37. What is a BOM (Bill of Materials) in Maven?
+38. How do you define modules in a multi-module Maven project?
+39. Explain the difference between dependencyManagement and dependencies in POM.
+40. How do you configure resource filtering for builds?
+
+ Profiles and Customization
+
+41. What is a Maven profile? Why are profiles useful?
+42. How do you define active profiles in POM.xml?
+43. How can you activate a profile from the command line?
+44. Provide a use-case for custom profiles (e.g., dev vs prod).
+45. How can you define different sets of dependencies for different profiles?
+
+ Maven Commands & Practical Usage
+
+46. What is the command to create a new Maven project?
+47. How do you run tests using Maven?
+48. Command to clean and build a project?
+49. How do you install a built artifact to the local repository?
+50. How do you deploy a project to a remote repository?
+51. How to skip tests during a build?
+52. Command to list all plugin goals for a project?
+53. How do you show effective POM and resolve property inheritance?
+54. How do you build specific modules in a multi-module project?
+55. What is the difference between mvn install and mvn deploy?
+
+ Integration (CI/CD, SCM, Other Tools)
+
+56. How do you integrate Maven with Jenkins or other CI tools?
+57. How do you trigger a Maven build from a CI pipeline?
+58. How is Maven used to automate releases?
+59. What is the Maven Release Plugin and typical steps in a release pipeline?
+60. How does Maven interact with SCM systems like Git?
+61. How do you use Maven to publish artifacts to JFrog Artifactory or Nexus?
+62. How can you build a Docker image after a Maven build?
+63. How do you generate and publish Javadoc using Maven?
+64. Best practices for versioning artifacts in CI/CD with Maven.
+65. How do you handle secrets configuration for a Maven build in CI/CD?
+
+ Advanced, Troubleshooting, and Best Practices
+
+66. How do you resolve "Out of Memory" issues during Maven build?
+67. Maven build is stuck on downloading dependencies—what do you check?
+68. How do you debug a Maven plugin execution failure?
+69. What does the -U flag do in Maven builds?
+70. How can you force Maven to update dependencies?
+71. How to handle conflicting dependency versions (dependency mediation)?
+72. How do you analyze and reduce build time in Maven?
+73. What is Maven Wrapper? Why is it useful?
+74. How can you define and enforce code quality using Maven plugins (e.g., Checkstyle, PMD)?
+75. How to generate code coverage reports using Maven (JaCoCo plugin)?
+
+ Scenario-Based & Real-World Questions
+
+76. How do you set up and build a multi-module Maven project for a microservices architecture?
+77. You discover a dependency vulnerability—describe your mitigation process.
+78. Maven build fails only for a particular profile—how do you troubleshoot?
+79. You need to build and deploy only if tests pass—how do you enforce this in Maven?
+80. How do you migrate an Ant project to Maven? Steps involved?
+81. How to manage SNAPSHOT vs release versions in large teams?
+82. How do you enable reproducible builds in Maven?
+83. Scenario: You need to build for both Java 8 and Java 17—how do you manage this?
+84. How do you ensure all developers use the same build environment?
+85. Explain a situation where you optimized builds for a monorepo/multi-team environment.
+86. How do you automate publishing versioned documentation (Javadoc, etc.) using Maven?
+87. Describe your approach for automated rollback on Maven deployment failure.
+88. What is the procedure to set up Maven in a Docker container for CI?
+89. How do you handle encrypted credentials/secrets for Maven deployments?
+90. Real-world troubleshooting: Build success locally, but fails on CI—how do you approach this?
+91. How do you resolve "Plugin execution not covered by lifecycle configuration" error?
+92. Provide steps to add a custom repository mirror for all users.
+93. How do you manage corporate proxies in Maven settings?
+94. Discuss best practices for dependency management in a large enterprise with Maven.
+95. How do you analyze and control dependency tree size?
+96. What is the impact of SNAPSHOT dependencies in production?
+97. How do you configure Maven to publish artifacts with GPG signatures?
+98. How to package non-Java files (like configs or scripts) into builds?
+99. Describe experience integrating static/dynamic code analysis into a Maven build.
+100. What security best practices do you follow in Maven-based build & deployment pipelines?
+
+
