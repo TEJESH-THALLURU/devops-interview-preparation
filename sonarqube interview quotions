@@ -1,0 +1,122 @@
+Top SonarQube Interview Questions 
+
+ 
+ Fundamentals & Core Concepts
+
+1. What is SonarQube, and what problems does it solve?
+2. Describe the differences between static and dynamic code analysis.
+3. What programming languages does SonarQube support?
+4. What is a code smell in SonarQube terminology?
+5. Explain the concepts of Technical Debt and Maintainability.
+6. What is a quality gate, and why is it important?
+7. How does SonarQube measure code coverage?
+8. Differentiate between issues, bugs, vulnerabilities, and code smells in SonarQube.
+9. What is a False Positive in SonarQube? How do you handle it?
+10. What are leak periods / New Code Periods, and how does SonarQube use them?
+
+ Configuration & Setup
+
+11. What are the prerequisites for installing and running SonarQube?
+12. Describe the process to set up SonarQube in a local/on-prem environment.
+13. How does SonarQube architecture (Server, Database, Scanner, Web UI) work?
+14. What is SonarQube Scanner, and how does it function?
+15. How do you integrate a new project/repo into SonarQube?
+16. Which databases are supported by SonarQube?
+17. How do you select or change source language analyzers?
+18. What is the use of sonar-project.properties file?
+19. How do you configure authentication (LDAP, SSO) in SonarQube?
+20. What are SonarQube plugins? How do you install and manage them?
+
+ Quality Gates, Rules, and Profiles
+
+21. What is a Quality Profile in SonarQube?
+22. How do you customize quality gates and set criteria (like coverage, duplications)?
+23. How is a new rule created or customized in SonarQube?
+24. How do you deal with rule violations in large legacy codebases?
+25. What are the default quality gates and profiles available after installation?
+26. How can you apply different quality gates to different projects?
+27. Explain the use of "Inactive Rules" and when you would disable a rule.
+28. How do you enforce a quality gate in a DevOps pipeline?
+29. What happens when a code merge fails the quality gate?
+30. How do you handle exceptions or custom rules for just one project?
+
+ CI/CD and DevOps Integration
+
+31. How do you integrate SonarQube with Jenkins?
+32. Explain how to integrate SonarQube within GitHub Actions or GitLab CI.
+33. How do you pass authentication tokens securely in CI pipelines for SonarQube scanning?
+34. How would you break a build if SonarQube quality gate fails?
+35. How do you implement branch analysis and Pull Request decoration with SonarQube?
+36. What is SonarCloud and how does it differ from SonarQube?
+37. How do you automate code analysis on every commit/merge?
+38. Walk through a typical end-to-end CI/CD pipeline with SonarQube.
+39. How do you deal with multi-module or polyglot (multi-language) project scans?
+40. How do you publish SonarQube reports as build artifacts?
+
+Security & Compliance
+
+41. How does SonarQube identify and report code vulnerabilities?
+42. What are security hotspots, and how do they differ from vulnerabilities?
+43. How is compliance with security standards (like OWASP Top 10) enforced in SonarQube?
+44. How do you monitor and remediate security issues flagged by SonarQube?
+45. How is sensitive data handled and protected in SonarQube analysis?
+46. How to perform and use audit logging in SonarQube?
+47. How does SonarQube support code review or approval processes?
+48. What are the implications of giving admin/project admin permissions in SonarQube?
+49. How do you ensure only authorized personnel can override or mark issues as False Positives?
+50. How can SonarQube findings be integrated into compliance reporting for audits?
+
+ Administration, Performance, and Troubleshooting
+
+51. How do you backup and restore SonarQube data?
+52. Steps for SonarQube upgrade/patching (zero downtime recommendations)?
+53. How do you troubleshoot “SonarQube is down” or web UI unavailable?
+54. What are common causes for analysis failure or missing reports?
+55. How do you optimize SonarQube for large-scale/enterprise use?
+56. What logging and monitoring options are built-in vs. externalized (Splunk, ELK)?
+57. How do you clean up/housekeep old analysis data or projects?
+58. How do you recover from corrupt database or failed migrations?
+59. How can you increase scan performance for large projects?
+60. What steps to follow if code coverage is not reported correctly?
+
+ Hands-on & Scenario-Based
+
+61. Demonstrate running a SonarQube scan from CLI against a sample repository.
+62. How do you generate and interpret a detailed SonarQube HTML report?
+63. Scenario: SonarQube scan is passing locally but failing in CI—how do you debug?
+64. How would you onboard a very large mono-repo for SonarQube with minimal disruption?
+65. You get too many “false positive” or irrelevant issues—what’s your triaging process?
+66. Walk through suppressing a specific type of warning for a legacy code section.
+67. CI pipeline takes too long after adding SonarQube—how do you investigate and optimize?
+68. How do you secure the analysis token in Jenkins across multiple repositories?
+69. Scenario: After a language upgrade (e.g., Java), analysis stops working—next steps?
+70. How do you provide SonarQube results to developers before pushing code?
+
+Advanced Features & Practices
+
+71. How do you implement branch-based quality gates and PR (Pull Request) decoration?
+72. How do you leverage SonarQube Web API for automation or scripting?
+73. What are custom plugins? Give an example use case.
+74. How do you monitor technical debt over time across multiple projects?
+75. How do you enable and manage multi-tenancy in SonarQube?
+76. How do you automate onboarding of new projects in SonarQube?
+77. Describe token-lifecycle management and rotation best practices.
+78. How do you aggregate SonarQube metrics into a central dashboard (Grafana, etc.)?
+79. How do you ensure data retention and compliance with regulatory requirements?
+80. How would you perform bulk changes to rules/profiles across all projects?
+
+ Bonus: Modern Trends & Open Discussion
+
+81. How is AI/Machine Learning entering code quality, and does SonarQube leverage it?
+82. What is the future of code analysis in DevOps pipelines—role of SonarQube vs others?
+83. How does SonarQube handle/plan support for new and evolving languages/frameworks?
+84. How do you contribute custom rules to the open source SonarQube community?
+85. What are key differences between SonarQube Community vs Developer/Enterprise editions?
+86. Share a real-life experience where SonarQube exposure prevented a critical production issue.
+87. Describe best practices for refining SonarQube results to avoid “noise” fatigue for devs.
+88. How do you use SonarQube in a microservices or cloud-native monorepo environment?
+89. What are limitations or drawbacks you have encountered with SonarQube?
+90. How do you stay updated with latest SonarQube features, rulesets, and releases?
+
+
+
