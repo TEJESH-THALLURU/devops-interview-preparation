@@ -1,0 +1,145 @@
+Top 100 Linux Interview Questions 
+
+Fundamentals & Concepts
+
+1. What is Linux?  
+2. What is the difference between Linux and Unix?  
+3. Explain the Linux kernel and its responsibilities.  
+4. Describe the architecture of Linux.  
+5. What are the main Linux distributions, and how do they differ?  
+6. What is GNU?  
+7. Explain the GPL (General Public License).  
+8. What is open source software?  
+9. What is the maximum filename length in Linux?  
+10. Describe the function of `/proc` and `/sys` directories.  
+
+File System & Permissions
+
+11. Describe the Linux file system hierarchy.  
+12. How do you check disk space usage?  
+13. Explain file and directory permissions (rwx).  
+14. What do `chmod`, `chown`, and `chgrp` do?  
+15. What are inodes?  
+16. What is the difference between a hard link and a soft (symbolic) link?  
+17. How do you find large files on Linux?  
+18. How do you list hidden files?  
+19. How can you search for a file by name/content?  
+20. How do you manage file compression and extraction (tar, gzip, zip)?  
+
+ Processes & System Management
+
+21. How do you view running processes?  
+22. How can you kill a running process?  
+23. What is the purpose of `ps`, `top`, and `htop`?  
+24. Explain the difference between foreground and background processes.  
+25. How do you schedule a recurring task (cron, at)?  
+26. What is runlevel?  
+27. What is systemd?  
+28. Explain nice and renice.  
+29. How do you monitor system resources—CPU, memory, I/O?  
+30. How do you check system uptime and load average?  
+
+ Users & Groups
+
+31. How do you add, delete, and manage users?  
+32. How do you switch users or become root?  
+33. What is the `sudo` command, and how do you configure it?  
+34. How do you add a user to a group?  
+35. What’s the difference between `/etc/passwd` and `/etc/shadow`?  
+
+ Networking
+
+36. How do you view your IP configuration?  
+37. How do you configure a static IP?  
+38. How do you check open ports and listening services?  
+39. What commands help you troubleshoot network issues?  
+40. How do you test connectivity to another host?  
+41. What is the use of `netstat` and `ss`?  
+42. How do you add or remove routes in Linux?  
+43. How do you troubleshoot DNS issues?  
+44. What is the difference between wget and curl?  
+45. How do you check real-time bandwidth usage?  
+
+ Boot, Recovery & System Initialization
+
+46. Describe the Linux boot process (BIOS, GRUB, kernel, init/systemd).  
+47. How do you recover a lost root password?  
+48. What would you do if a system fails to boot?  
+49. How do you use fsck?  
+50. What is the role of initramfs?  
+
+ Package Management
+
+51. What is a package manager? (rpm, yum, dnf, apt)  
+52. How do you install, remove, and update packages?  
+53. Explain the difference between yum and rpm.  
+54. How do you list all installed packages?  
+55. How do you manage repositories?  
+
+ Shell Scripting & Automation
+
+56. How do you write a shell script to monitor disk usage?  
+57. What is the difference between BASH and SH?  
+58. How do you pass command line arguments to a script?  
+59. How do you loop and conditionally execute commands in bash?  
+60. How do you debug a shell script?  
+
+ Logs & Troubleshooting
+
+61. Where are system logs located in Linux?  
+62. How do you view logs in real time?  
+63. How do you filter logs for errors?  
+64. How do you trace a program crash?  
+65. How do you investigate a slow login or boot time?  
+
+ Storage & LVM
+
+66. What is LVM?  
+67. How do you create a new volume group?  
+68. How do you expand or reduce a logical volume?  
+69. How do you take and restore LVM snapshots?  
+70. How do you check available disk space in a volume group?  
+
+ Device Management
+
+71. How do you list all attached devices (USB, disks)?  
+72. What is /dev, and how are devices managed in Linux?  
+73. How do you mount and unmount filesystems?  
+74. What are loop devices?  
+75. How do you troubleshoot device driver issues?  
+
+ Security
+
+76. How do you secure SSH access?  
+77. How do you configure firewalls with iptables or firewalld?  
+78. What is SELinux?  
+79. How do you set password policies for users?  
+80. How do you audit user access and activity?  
+
+ Advanced & Scenario-Based
+
+81. How do you recover deleted files or partitions?  
+82. Walk through troubleshooting a system with 100% disk usage.  
+83. A service won’t start—describe your debugging process.  
+84. How do you automate software deployment to multiple servers?  
+85. How do you analyze and fix high CPU usage by a process?  
+86. What steps do you take if a user can’t login?  
+87. How do you perform kernel upgrades safely?  
+88. How do cgroups and namespaces work in Linux?  
+89. How do you apply a kernel patch?  
+90. How do you enable swap and check its usage?  
+
+ Command-Line & Practical
+
+91. How do you redirect output and errors in Linux?  
+92. What is the difference between `>` and `>>`?  
+93. How do you count lines, words, and characters in a file?  
+94. How do you sort and uniq lines in a file?  
+95. How do you edit files using vi or nano?  
+96. How do you schedule log rotation?  
+97. How do you find duplicate files?  
+98. How do you copy files securely between remote hosts?  
+99. How do you list currently logged in users?  
+100. How do you monitor file changes in real time?  
+
+
